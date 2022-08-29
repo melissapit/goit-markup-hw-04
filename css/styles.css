@@ -92,7 +92,6 @@ img {
   display: flex;
   gap: 50px;
 }
-
 .link {
   color: var(--article-color);
   font-weight: 500;
