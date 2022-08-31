@@ -234,9 +234,11 @@ img {
   gap: 30px;
 }
 .feature-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
-  padding: 25px 100px;
   background-color: rgba(245, 244, 250, 1);
   margin-bottom: 30px;
 }
@@ -327,13 +329,20 @@ img {
 
   margin-bottom: 50px;
 }
+.client {
+  width: 170px;
+  height: 92px;
+}
 .our-clients {
   display: flex;
   gap: 30px;
 }
 .client-link {
   display: flex;
-  padding: 16px 32px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
   border: 1px solid var(--fill-icon-color);
   border-radius: 4px;
   fill: var(--fill-icon-color);
